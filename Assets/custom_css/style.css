@@ -1,0 +1,679 @@
+/* Font start */
+
+@font-face {
+    font-family: mycsbold;
+    src: url(../font/Product_Sans_Bold.ttf);
+}
+
+@font-face {
+    font-family: mycsbolditalic;
+    src: url(../font/Product_Sans_Bold_Italic.ttf);
+}
+
+@font-face {
+    font-family: mycsitalic;
+    src: url(../font/Product_Sans_Italic.ttf);
+}
+
+@font-face {
+    font-family: mycsregular;
+    src: url(../font/Product_Sans_Regular.ttf);
+}
+
+
+/* Font end */
+
+
+/* Cover section start */
+
+.bg-cover {
+    background-image: url(../img/background-slider.jpg);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* cover section end */
+
+
+/* brand product section start*/
+
+.bg-section {
+    background-image: url(../img/Product-Background.png);
+    height: 850px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brand-tag {
+    font-style: normal;
+    font-family: mycsregular;
+    letter-spacing: 2px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.brand-msg {
+    font-weight: bolder;
+    font-family: mycsbold;
+    letter-spacing: 1px;
+    font-size: 60px;
+}
+
+.img-yellow {
+    height: 600px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+}
+
+.img-bottle {
+    padding: 0px;
+    height: 500px;
+    padding-left: 120px;
+    padding-top: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+.testi-text {
+    font-family: mycsregular;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    background: white;
+    width: 500px;
+}
+
+.box-pos-out {
+    position: relative;
+}
+
+.box-pos-in {
+    position: absolute;
+    margin-right: 400px;
+    margin-top: 200px;
+}
+
+.brand-tag-sm {
+    font-family: mycsbold;
+}
+
+.blue-span {
+    color: #3498DB;
+}
+
+
+/* brand product section end */
+
+
+/* product card section */
+
+.card-img-size {
+    width: 150px;
+    height: 300px;
+}
+
+.cs-txt {
+    color: black;
+    font-family: mycsbold;
+    letter-spacing: 1px;
+}
+
+.cs-red {
+    color: red;
+    font-family: mycsbold;
+}
+
+.stylish-color-dark {
+    color: white;
+    background-color: black;
+}
+
+.ft-font {
+    font-size: 25px;
+    font-family: mycsbold;
+    text-decoration: underline;
+}
+
+.product {
+    color: white;
+    font-family: mycsbold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+.ft-comm {
+    background-color: #25CCF7;
+    color: white;
+    font-family: mycsbold;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.ft-comm1 {
+    background-color: #25CCF7;
+    color: white;
+    font-family: mycsbold;
+    letter-spacing: 1px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/* product card section end */
+
+
+/* media query */
+
+@media screen and (max-width:1400px) {
+    .bg-cover {
+        background-image: url(../img/background-slider.jpg);
+        height: 600px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .bg-cover {
+        background-image: url(../img/background-slider.jpg);
+        height: 600px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box-pos-in {
+        position: absolute;
+        margin-left: 80px;
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width:1170px) {
+    .bg-cover {
+        background-image: url(../img/background-slider.jpg);
+        height: 600px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img-brand {
+        width: 250px;
+        height: 250px;
+    }
+    .img-tag {
+        width: 700px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .bg-cover {
+        background-image: url(../img/background-slider.jpg);
+        height: 582px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img-brand {
+        width: 200px;
+        height: 200px;
+    }
+    .img-tag {
+        width: 550px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .bg-cover {
+        background-image: url(../img/background-slider.jpg);
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img-brand {
+        width: 200px;
+        height: 200px;
+    }
+    .img-tag {
+        width: 600px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .bg-cover {
+        background-image: url(../img/background-slider.jpg);
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img-brand {
+        width: 200px;
+        height: 200px;
+    }
+    .img-tag {
+        width: 450px;
+        height: 100px;
+    }
+    .box-pos-in {
+        position: absolute;
+        margin-left: -300px;
+        margin-top: 140px;
+    }
+    .testi-text {
+        font-family: mycsregular;
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: black;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+        background: white;
+        width: 400px;
+    }
+    .img-yellow {
+        height: 550px;
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+    }
+    .img-bottle {
+        padding: 0px;
+        height: 450px;
+        padding-left: 120px;
+        padding-top: 80px;
+        position: relative;
+        z-index: 100;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .bg-cover {
+        background-image: url(../img/background-slider.jpg);
+        height: 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img-brand {
+        width: 150px;
+        height: 150px;
+    }
+    .img-tag {
+        width: 500px;
+        height: 100px;
+        /* padding-left: 50px; */
+    }
+    .box-pos-in {
+        position: absolute;
+        margin-left: -50px;
+        margin-top: 100px;
+    }
+    .testi-text {
+        font-family: mycsregular;
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: black;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+        background: white;
+        width: 315px;
+    }
+    .img-yellow {
+        height: 500px;
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+    }
+    .img-bottle {
+        padding: 0px;
+        height: 400px;
+        padding-left: 120px;
+        padding-top: 80px;
+        position: relative;
+        z-index: 100;
+    }
+    .bg-section {
+        background-image: url(../img/Product-Background.png);
+        height: 800px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .bg-cover {
+        background-image: url(../img/background-slider.jpg);
+        height: 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img-brand {
+        width: 100px;
+        height: 100px;
+    }
+    .img-tag {
+        width: 400px;
+        height: 80px;
+        /* padding-left: 50px; */
+    }
+    .brand-tag {
+        font-style: normal;
+        font-family: mycsregular;
+        letter-spacing: 2px;
+        color: gray;
+        font-weight: lighter;
+        font-size: 25px;
+    }
+    .brand-msg {
+        font-weight: bolder;
+        font-family: mycsbold;
+        letter-spacing: 1px;
+        font-size: 30px;
+    }
+    .box-pos-in {
+        position: absolute;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .brand-tag-sm {
+        font-family: mycsbold;
+        font-size: 30px;
+    }
+    .testi-text {
+        font-family: mycsregular;
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: black;
+        font-size: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+        background: white;
+        width: 450px;
+    }
+    .img-yellow {
+        height: 450px;
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+        visibility: hidden;
+    }
+    .img-bottle {
+        padding: 0px;
+        height: 350px;
+        padding-left: 200px;
+        padding-top: 50px;
+        position: relative;
+        z-index: 100;
+    }
+    .bg-section {
+        background-image: url(../img/Product-Background.png);
+        height: 780px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .bg-cover {
+        background-image: url(../img/background-slider.jpg);
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img-brand {
+        width: 100px;
+        height: 100px;
+    }
+    .img-tag {
+        width: 400px;
+        height: 80px;
+        /* padding-left: 50px; */
+    }
+    .brand-tag {
+        font-style: normal;
+        font-family: mycsregular;
+        letter-spacing: 2px;
+        color: gray;
+        font-weight: lighter;
+        font-size: 25px;
+    }
+    .brand-msg {
+        font-weight: bolder;
+        font-family: mycsbold;
+        letter-spacing: 1px;
+        font-size: 30px;
+    }
+    .box-pos-in {
+        position: absolute;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .brand-tag-sm {
+        font-family: mycsbold;
+        font-size: 30px;
+    }
+    .testi-text {
+        font-family: mycsregular;
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: black;
+        font-size: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+        background: white;
+        width: 450px;
+    }
+    .img-yellow {
+        height: 450px;
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+        visibility: hidden;
+    }
+    .img-bottle {
+        padding: 0px;
+        height: 300px;
+        padding-left: 200px;
+        padding-top: 10px;
+        position: relative;
+        z-index: 100;
+    }
+    .bg-section {
+        background-image: url(../img/Product-Background.png);
+        height: 750px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .bg-cover {
+        background-image: url(../img/background-slider.jpg);
+        height: 240px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img-brand {
+        width: 100px;
+        height: 100px;
+    }
+    .img-tag {
+        width: 250px;
+        height: 50px;
+        padding-top: 0px;
+        /* padding-left: 50px; */
+    }
+    .brand-tag {
+        font-style: normal;
+        font-family: mycsregular;
+        letter-spacing: 2px;
+        color: gray;
+        font-weight: lighter;
+        font-size: 20px;
+    }
+    .brand-msg {
+        font-weight: bolder;
+        font-family: mycsbold;
+        letter-spacing: 1px;
+        font-size: 25px;
+    }
+    .box-pos-in {
+        position: absolute;
+        /* margin-left: 13px; */
+        margin: auto;
+        margin-top: 20px;
+    }
+    .brand-tag-sm {
+        font-family: mycsbold;
+        font-size: 25px;
+    }
+    .testi-text {
+        font-family: mycsregular;
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: black;
+        font-size: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+        background: white;
+        width: 350px;
+    }
+    .img-yellow {
+        height: 340px;
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+        visibility: hidden;
+    }
+    .img-bottle {
+        padding: 0px;
+        height: 300px;
+        padding-left: 140px;
+        padding-top: 10px;
+        position: relative;
+        z-index: 100;
+    }
+    .bg-section {
+        background-image: url(../img/Product-Background.png);
+        height: 750px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .bg-cover {
+        background-image: url(../img/background-slider.jpg);
+        height: 250px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img-brand {
+        width: 100px;
+        height: 100px;
+    }
+    .img-tag {
+        width: 300px;
+        height: 50px;
+        padding-top: 0px;
+        /* padding-left: 50px; */
+    }
+    .brand-tag {
+        font-style: normal;
+        font-family: mycsregular;
+        letter-spacing: 2px;
+        color: gray;
+        font-weight: lighter;
+        font-size: 20px;
+    }
+    .brand-msg {
+        font-weight: bolder;
+        font-family: mycsbold;
+        letter-spacing: 1px;
+        font-size: 25px;
+    }
+    .box-pos-in {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .brand-tag-sm {
+        font-family: mycsbold;
+        font-size: 20px;
+    }
+    .testi-text {
+        font-family: mycsregular;
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: black;
+        font-size: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+        background: white;
+        width: 300px;
+    }
+    .img-yellow {
+        height: 340px;
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+        visibility: hidden;
+    }
+    .img-bottle {
+        padding: 0px;
+        height: 300px;
+        padding-left: 115px;
+        padding-top: 10px;
+        position: relative;
+        z-index: 100;
+    }
+    .bg-section {
+        background-image: url(../img/Product-Background.png);
+        height: 750px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .ft-comm {
+        background-color: #25CCF7;
+        color: white;
+        font-family: mycsbold;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .ft-comm1 {
+        background-color: #25CCF7;
+        color: white;
+        font-family: mycsbold;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+}
